@@ -3,7 +3,7 @@ require 'pry'
 
 class Artist
 
-  xtend Memorable::ClassMethods
+  extend Memorable::ClassMethods
   extend Findable
   include Paramable
   include Memorable::InstanceMethods
