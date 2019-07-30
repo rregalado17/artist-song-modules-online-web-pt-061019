@@ -24,7 +24,7 @@ class Artist
   #end
 
   def self.all
-    @@artists
+    self.class.all
   end
 
 #  def self.reset_all
