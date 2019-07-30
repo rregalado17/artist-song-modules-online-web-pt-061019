@@ -14,7 +14,7 @@ class Song
   @@songs = []
 
   def initialize
-    super       #needed to include all methods being pulled from modules
+    super       #needed to include all methods being pulled from modules for the artist class
   #  @@songs << self
   end
 
