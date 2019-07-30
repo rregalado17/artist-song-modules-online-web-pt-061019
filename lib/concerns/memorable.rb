@@ -1,6 +1,6 @@
 module Memorable
 
-  module ClassMethods
+  module ClassMethods#remove the self since self would be the module in this case
     def reset_all
       self.all.clear
     end
@@ -11,7 +11,7 @@ module Memorable
   end
   
   
-  def reset_all #remove the self since self would be the module in this case
+  def reset_all 
     self.all.clear
   end
 
