@@ -1,5 +1,5 @@
 require 'pry'
-require_relative './class_methods_module.rb'
+require_relative './concerns/memorable.rb'
 
 class Song
   
